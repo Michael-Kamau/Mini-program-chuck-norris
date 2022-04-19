@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "src/pages/index/index",
+     "src/pages/categories/categories"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Chuck Norris Jokes"
   }
 }

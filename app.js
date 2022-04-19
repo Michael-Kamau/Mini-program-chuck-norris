@@ -1,9 +1,13 @@
+
+
 App({
-  onLaunch(options) {
-    // Page opens for the first time
-    console.info('App onLaunch');
+   onLaunch(options)  {
+   
   },
   onShow(options) {
     // Reopened by scheme from the background
   },
+  globalData: {
+    name: true,
+  }
 });
