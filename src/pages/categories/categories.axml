@@ -1,15 +1,15 @@
-<view>
+<view class="container">
 
   <picker onChange="bindCategoriesPickerChange" value="{{selectedCategoryIndex}}" range="{{categories}}" range-key="name">
-    <view class="row">
-      <view class="row-title">Select Joke category</view>
-      <view class="row-extra">Current selection:{{categories[selectedCategoryIndex]}}</view>
+    <view class="picker-container">
+      <view class="">Select Joke category</view>
+      <view class="">{{categories[selectedCategoryIndex]?categories[selectedCategoryIndex]:"Not selected"}}</view>
       
     </view>
   </picker>
-  <view>{{joke}}</view>
+  <view class="joke-container">{{joke}}</view>
 
-  <button onTap="fetchCategoryJoke">Fetch Joke</button>
+  <button class="button-primary" onTap="fetchCategoryJoke">Fetch Joke</button>
 
 
 </view>

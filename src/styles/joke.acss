@@ -1,0 +1,9 @@
+.joke-container{
+  padding:5px;
+  margin:25px 2px;
+  min-height: 40px;
+  border-radius: 8px;
+  width: 95%;
+  color:#929597;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

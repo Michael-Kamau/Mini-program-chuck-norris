@@ -1,6 +1,6 @@
-<view>
-  {{joke}}
+<view class="container">
+  <view class='joke-container'>{{joke}}</view>
 
-<button onTap="fetchJoke">Fetch Joke</button>
-<navigator url="/src/pages/categories/categories" hover-class="navigator-hover">Jump to new page</navigator>
+<button class='button-primary' onTap="fetchJoke">Fetch Joke</button>
+<navigator class="button-primary nav-button" url="/src/pages/categories/categories" hover-class="navigator-hover">Categories page</navigator>
 </view>

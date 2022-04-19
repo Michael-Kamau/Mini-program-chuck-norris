@@ -43,7 +43,6 @@ Page({
 
   },
   async fetchCategoryJoke(e) {
-    my.showLoading({content: 'loading...'});
     const { categories, selectedCategoryIndex } = this.data
     let data = null
 
@@ -51,6 +50,8 @@ Page({
       my.alert({ content: 'Select category' });
       return
     }
+    my.showLoading({content: 'loading...'});
+
     await my.request({
       url: `https://api.chucknorris.io/jokes/random?category=${categories[selectedCategoryIndex]}`,
       method: 'GET',
