@@ -1,0 +1,8 @@
+@import '../../styles/joke.acss';
+@import '../../styles/container.acss';
+@import '../../styles/button.acss';
+.nav-button {
+  position: absolute;
+  bottom:0;
+  left:35%
+}

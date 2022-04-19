@@ -4,6 +4,7 @@
      "src/pages/categories/categories"
   ],
   "window": {
-    "defaultTitle": "Chuck Norris Jokes"
+    "defaultTitle": "Chuck Norris Jokes",
+    "titleBarColor":"#0080ff"
   }
 }

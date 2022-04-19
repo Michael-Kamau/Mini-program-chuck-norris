@@ -1,0 +1,12 @@
+@import '../../styles/joke.acss';
+@import '../../styles/container.acss';
+@import '../../styles/button.acss';
+.picker-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 2px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color:#6b6d6e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
