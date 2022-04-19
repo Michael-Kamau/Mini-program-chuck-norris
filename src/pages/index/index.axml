@@ -2,4 +2,5 @@
   {{joke}}
 
 <button onTap="fetchJoke">Fetch Joke</button>
+<navigator url="/src/pages/categories/categories" hover-class="navigator-hover">Jump to new page</navigator>
 </view>

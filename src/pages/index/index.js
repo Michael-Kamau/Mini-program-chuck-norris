@@ -30,6 +30,7 @@ Page({
     // Page is pulled to the bottom
   },
   async fetchJoke(e) {
+    my.showLoading({content: 'loading...'});
     let data = null
     await my.request({
       url: 'https://api.chucknorris.io/jokes/random',
@@ -41,19 +42,15 @@ Page({
       },
       complete: function (res) {
         my.hideLoading();
-        // my.alert({content: 'complete'});
+
         data = res.data.value
-        console.info(data)
       }
     });
-
     this.setData({
       joke: data
     });
-
-    console.log(joke)
-
   },
+  
   onShareAppMessage() {
     // Back to custom sharing information
     return {
